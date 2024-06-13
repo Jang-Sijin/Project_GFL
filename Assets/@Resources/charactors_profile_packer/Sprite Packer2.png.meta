@@ -1,0 +1,2353 @@
+fileFormatVersion: 2
+guid: 3f11a393cbd2b0e428c76a8b9df20bf0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite Packer2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1764
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d1cd383a754944a890e19a9ba76a24
+      internalID: -1178373705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1764
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de283716381679242b5a08bc5e6f539c
+      internalID: -166436203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1764
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62baee9619753704197327567d59e793
+      internalID: 1934869805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_3
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1764
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f539afc88e8224f8cc66f5ac9dce73
+      internalID: -1579507839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_4
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1764
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a0543145fea66438bf4821f85f325e
+      internalID: 1464713222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_5
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1764
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6f4797adda65b42be75ef96c1ca66a
+      internalID: 1121938576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_6
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1764
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff4ebde98be60245bcc627d9524a398
+      internalID: -360780163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_7
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1764
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1e0e983bbebfd469e626aecc1c4868
+      internalID: 2072518163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_8
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1764
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4937acb970c70ac479e9d9b301dd2cd0
+      internalID: 1370684640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_9
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1764
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8819f712ce8ca346b078cb37711e100
+      internalID: 1849571848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1568
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539a63bfa5611cd4cadf5d52de22f527
+      internalID: -1655810038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_11
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1568
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b387ce622f415740bcbdd4b4684ca3d
+      internalID: 1865059531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_12
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1568
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b43ef755477694890a94302dc29b03
+      internalID: -689644093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_13
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1568
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732d8255561a3b24e9fae0b75d623403
+      internalID: -1967565059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_14
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1568
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0300054c223cb4d9978b3362088d82
+      internalID: 941522063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_15
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1568
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2247a8d0dff790b4b881ff0f871dc3dc
+      internalID: 498339112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_16
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1568
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e57250123d56654eb74a279126999ea
+      internalID: -507762392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_17
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1568
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810f23da76ce828459f9de5d8386817c
+      internalID: -1691417034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_18
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1568
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3ed894c8c1626459113df3b8ecde80
+      internalID: -783928620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_19
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1568
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d122d10cfe4a82e48ac93c4d7e15cff4
+      internalID: 235678681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1372
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a289a8363060bf428f7265e1f356217
+      internalID: 593899074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_21
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1372
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4c198d8e1802c48932c0b58ced6837
+      internalID: 1498199971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_22
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1372
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e355fb91262a85249aedd027669d922b
+      internalID: -1728043553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_23
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1372
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fcc6135b3b6b848a003f5638ebc890
+      internalID: -1588488871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_24
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1372
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff720826696907438ba3161d4e62f8d
+      internalID: -132508639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_25
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1372
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c56a0b3cae62e47af573bca24cf3bd
+      internalID: -1123370076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_26
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1372
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205f1a96dc3137e4d8566829e8479eca
+      internalID: -476473056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_27
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1372
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c651d518ccfbf46b3cb6a21975336b
+      internalID: -205415851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_28
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1372
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b67847e4cce8fd4396c29b653bc2387
+      internalID: 1320275426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_29
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1372
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36b81476cc7c97478cb3e8f1d70342a
+      internalID: 1020451478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1176
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c199f4a2365c1664683327ed21cb76d8
+      internalID: -1392063341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_31
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1176
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509497724deee1c47a603f718d0c6b81
+      internalID: 716468070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_32
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1176
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe353c6084ff7a8428a7a9750fc171ff
+      internalID: 2059912057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_33
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1176
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f137d610380b1bc42822fa4cfc25bc10
+      internalID: -128712859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_34
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1176
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec000387d50e104f9b8fe1709e0bdcb
+      internalID: -1433526829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_35
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1176
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8222fbd4fe228d746a0e43e907a79357
+      internalID: 751816969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_36
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1176
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d4c80efa3faee42bd325d73cc72c14
+      internalID: 75083654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_37
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1176
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cef3d55cf2cf542a11d4159cd10de5
+      internalID: 1016234625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_38
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1176
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0892f873692f14588247e36c568ecb
+      internalID: 1429446056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_39
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1176
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fd74569c45c8e48962db206a4fda53
+      internalID: -1605878201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 980
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a74d10ef13ea044b6fb6b44288a3d9
+      internalID: 791427017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_41
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 980
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ccf910b540b944cb023c0043ff879b
+      internalID: 935942055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_42
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 980
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b73fe44db566147a1819bb1d423f63
+      internalID: -333225204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_43
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 980
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bb0614a65fdce489e191a08f70a463
+      internalID: 1970474744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_44
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 980
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5437f9313668ef46b86896126b89d4c
+      internalID: -493273249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_45
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 980
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d3ee0c8aa17e643a39b2f08d8dac74
+      internalID: 1543411579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_46
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 980
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70dd25dcd4c2c3548b5130246038c333
+      internalID: 1929233384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_47
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 980
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb7d35708ecb074e880c25ce84a6253
+      internalID: 389092075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_48
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 980
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26b4662bf24c77419c0413041dee1df
+      internalID: 984296139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_49
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 980
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1e0fcbde102904fa625001b8fc49a2
+      internalID: 1684620737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 784
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53e55d97273db94d919a94ab0f6215d
+      internalID: -1944918006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_51
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 784
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a1857d8052bb944b7b86a6a11b666f
+      internalID: -1612499051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_52
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 784
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1752d48ee66fa2b4297dd127e3944ec1
+      internalID: 435754847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_53
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 784
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb8c9b8e685f7042a4bc428c04f15e7
+      internalID: -606445329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_54
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 784
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289803a72f7ff71449955f93aa5e5fbe
+      internalID: -199328378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_55
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 784
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045ee15ae2c86124f8b37ea6548330ba
+      internalID: -637959296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_56
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 784
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5213ab22ef8c941809c32c9bdebd26
+      internalID: 867683420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_57
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 784
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1420cc2125ef04094962fb9326eabe
+      internalID: -525327162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_58
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 784
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46473ea024350ef48a979a5d11514aff
+      internalID: 516210799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_59
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 784
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1721cd36ab88f9c48b269fc027ebfe87
+      internalID: -628784523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d688ee2e8bb39a45aecde9b62388869
+      internalID: 420900635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_61
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 588
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90da6376e94eff84b81ebbee6f8510d9
+      internalID: -1755395614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_62
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 588
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bec6863fc5ac3e4bb3272d803166c80
+      internalID: 583132759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_63
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 588
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3ea4b659797c9458ff463976f6129a
+      internalID: 418425986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_64
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 588
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6df462a98b0cc544bc6dc6a9a6a5099
+      internalID: -544554926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_65
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 588
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d0482dfc48dc84c958fd376b23693b
+      internalID: 878482003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_66
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 588
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a5ee5a18fdf1a45baea3fed00b145a
+      internalID: 1573729281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_67
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 588
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9761059aa62921f418a81aa552754d17
+      internalID: -1600566081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_68
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 588
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cc904138f3c8e46a7e90b11de5ce9f
+      internalID: -2064989478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_69
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 588
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9a6074a3f5af940a72e4344c1c9c7c
+      internalID: -1242411507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 392
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cfe2faf93d8ae4eb73c06b0fa3d9f9
+      internalID: -869792607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_71
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 392
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a420f46392a1c49bca97381cb78c84
+      internalID: 197578355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_72
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 392
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c318b3a4db2e342a511e037cd33124
+      internalID: 366984603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_73
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 392
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d0774d48582664eb5e715dafc3785d
+      internalID: 747048319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_74
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 392
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab28ab1479ac8e41b8a7dae3973ad52
+      internalID: 131094164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_75
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 392
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce443ef0a13950458427be0153fe60f
+      internalID: 388044954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_76
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 392
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c3323bf19a0cf45a8089cb02f67e35
+      internalID: 1200236812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_77
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 392
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff61ac93b6f0bf43acb76208755077d
+      internalID: 750860637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_78
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 392
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e73de68b9653241b438268c2beb177
+      internalID: 323902424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_79
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 392
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622b7abc579fff74d971d72422b9e557
+      internalID: 880814584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a99355cf952a7a43ae40c146c37d6f0
+      internalID: -17905395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_81
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 196
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da05087523184b4aba46c1f9a9e41b9
+      internalID: 1998335910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_82
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 196
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc8696a45bb71244993fc0248ae6896
+      internalID: -1584180296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_83
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 196
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee44379455a1f04bbc20f9cfa78a8da
+      internalID: 744382737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_84
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 196
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c396df870c5354f9db254ba94cabf0
+      internalID: -1484073940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_85
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 196
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add6dce6825b4d64fa487383795ae66f
+      internalID: -435856722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_86
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 196
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d766d047e4bea45a0becbda53d6c29
+      internalID: 1090933223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_87
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 196
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2c1160c20dac24b87ca46e9a1884cb
+      internalID: 28886958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_88
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 196
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cec78f9dab5a6649951bb7e67fd5342
+      internalID: 1006901286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_89
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 196
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce58862b5f544b46a01696164f67546
+      internalID: -217827742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a020ff16369eb7f4991af31978a08e73
+      internalID: -738408861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_91
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dca010fad6b3164c83e144e30cda1c9
+      internalID: 1623241410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_92
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5a2b9af5a379c4b9e393529947804c
+      internalID: 1105348019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_93
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be34480da5220a042a89b25d4d77579c
+      internalID: -429983453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_94
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 0
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb422541cec04b046ad5e2af2ba3f26f
+      internalID: 1515380390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_95
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 0
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1d65fb63384684985539bea6ba4249
+      internalID: -509026569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_96
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 0
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadbeacb2d523d6408d3f8d047afca2b
+      internalID: -15222617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_97
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 0
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19a908c9f7376241b6ca2ffdd6cf139
+      internalID: 1048841322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_98
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 0
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb648a016590fa444b59053c8fe8810a
+      internalID: -621376948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Packer2_99
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 0
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b20df303cf42ff439d53ed755ab4e3b
+      internalID: 1857287248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sprite Packer2_0: -1178373705
+      Sprite Packer2_1: -166436203
+      Sprite Packer2_10: -1655810038
+      Sprite Packer2_11: 1865059531
+      Sprite Packer2_12: -689644093
+      Sprite Packer2_13: -1967565059
+      Sprite Packer2_14: 941522063
+      Sprite Packer2_15: 498339112
+      Sprite Packer2_16: -507762392
+      Sprite Packer2_17: -1691417034
+      Sprite Packer2_18: -783928620
+      Sprite Packer2_19: 235678681
+      Sprite Packer2_2: 1934869805
+      Sprite Packer2_20: 593899074
+      Sprite Packer2_21: 1498199971
+      Sprite Packer2_22: -1728043553
+      Sprite Packer2_23: -1588488871
+      Sprite Packer2_24: -132508639
+      Sprite Packer2_25: -1123370076
+      Sprite Packer2_26: -476473056
+      Sprite Packer2_27: -205415851
+      Sprite Packer2_28: 1320275426
+      Sprite Packer2_29: 1020451478
+      Sprite Packer2_3: -1579507839
+      Sprite Packer2_30: -1392063341
+      Sprite Packer2_31: 716468070
+      Sprite Packer2_32: 2059912057
+      Sprite Packer2_33: -128712859
+      Sprite Packer2_34: -1433526829
+      Sprite Packer2_35: 751816969
+      Sprite Packer2_36: 75083654
+      Sprite Packer2_37: 1016234625
+      Sprite Packer2_38: 1429446056
+      Sprite Packer2_39: -1605878201
+      Sprite Packer2_4: 1464713222
+      Sprite Packer2_40: 791427017
+      Sprite Packer2_41: 935942055
+      Sprite Packer2_42: -333225204
+      Sprite Packer2_43: 1970474744
+      Sprite Packer2_44: -493273249
+      Sprite Packer2_45: 1543411579
+      Sprite Packer2_46: 1929233384
+      Sprite Packer2_47: 389092075
+      Sprite Packer2_48: 984296139
+      Sprite Packer2_49: 1684620737
+      Sprite Packer2_5: 1121938576
+      Sprite Packer2_50: -1944918006
+      Sprite Packer2_51: -1612499051
+      Sprite Packer2_52: 435754847
+      Sprite Packer2_53: -606445329
+      Sprite Packer2_54: -199328378
+      Sprite Packer2_55: -637959296
+      Sprite Packer2_56: 867683420
+      Sprite Packer2_57: -525327162
+      Sprite Packer2_58: 516210799
+      Sprite Packer2_59: -628784523
+      Sprite Packer2_6: -360780163
+      Sprite Packer2_60: 420900635
+      Sprite Packer2_61: -1755395614
+      Sprite Packer2_62: 583132759
+      Sprite Packer2_63: 418425986
+      Sprite Packer2_64: -544554926
+      Sprite Packer2_65: 878482003
+      Sprite Packer2_66: 1573729281
+      Sprite Packer2_67: -1600566081
+      Sprite Packer2_68: -2064989478
+      Sprite Packer2_69: -1242411507
+      Sprite Packer2_7: 2072518163
+      Sprite Packer2_70: -869792607
+      Sprite Packer2_71: 197578355
+      Sprite Packer2_72: 366984603
+      Sprite Packer2_73: 747048319
+      Sprite Packer2_74: 131094164
+      Sprite Packer2_75: 388044954
+      Sprite Packer2_76: 1200236812
+      Sprite Packer2_77: 750860637
+      Sprite Packer2_78: 323902424
+      Sprite Packer2_79: 880814584
+      Sprite Packer2_8: 1370684640
+      Sprite Packer2_80: -17905395
+      Sprite Packer2_81: 1998335910
+      Sprite Packer2_82: -1584180296
+      Sprite Packer2_83: 744382737
+      Sprite Packer2_84: -1484073940
+      Sprite Packer2_85: -435856722
+      Sprite Packer2_86: 1090933223
+      Sprite Packer2_87: 28886958
+      Sprite Packer2_88: 1006901286
+      Sprite Packer2_89: -217827742
+      Sprite Packer2_9: 1849571848
+      Sprite Packer2_90: -738408861
+      Sprite Packer2_91: 1623241410
+      Sprite Packer2_92: 1105348019
+      Sprite Packer2_93: -429983453
+      Sprite Packer2_94: 1515380390
+      Sprite Packer2_95: -509026569
+      Sprite Packer2_96: -15222617
+      Sprite Packer2_97: 1048841322
+      Sprite Packer2_98: -621376948
+      Sprite Packer2_99: 1857287248
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
