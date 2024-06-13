@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: Vespid_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: f12a5d4ca1edf704eb7585f98c00d1d4, type: 3}
   materials:
   - {fileID: 2100000, guid: faed8b78b810e4b44914d89178c02811, type: 2}

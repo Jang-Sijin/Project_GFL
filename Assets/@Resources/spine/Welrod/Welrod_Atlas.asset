@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: Welrod_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 18905e539fee3404a9d055d84479d513, type: 3}
   materials:
   - {fileID: 2100000, guid: 58d300eef043a7d4c9675d0b4c73b340, type: 2}

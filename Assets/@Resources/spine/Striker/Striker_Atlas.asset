@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: Striker_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: e17107cbd1b3fc841a45b300a55414b4, type: 3}
   materials:
   - {fileID: 2100000, guid: 5fecbf8b93bd6d14cacd0999345e4422, type: 2}

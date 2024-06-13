@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: Prowler_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 6f6451b4a22ce5f4389b5b50aee278b6, type: 3}
   materials:
   - {fileID: 2100000, guid: e9185d3453795dd46a4343bfdd4bfbaf, type: 2}

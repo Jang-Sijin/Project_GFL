@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: NEGEV_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 06b796f2329af9147b126ef2821d6964, type: 3}
   materials:
   - {fileID: 2100000, guid: 3d6a2c59d7e2582409281dc1d6ec4063, type: 2}

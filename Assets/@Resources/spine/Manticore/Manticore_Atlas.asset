@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: Manticore_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 0309104d9869cea4c8da3ca784cf323b, type: 3}
   materials:
   - {fileID: 2100000, guid: 2001d69efc28235489e180c8074c72e8, type: 2}

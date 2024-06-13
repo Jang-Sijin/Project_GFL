@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: Kiana_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 7d37a9541f2c1a44cbd4d5618556b946, type: 3}
   materials:
   - {fileID: 2100000, guid: 9d417f1d469c9a7418d0348b7ada3f6e, type: 2}

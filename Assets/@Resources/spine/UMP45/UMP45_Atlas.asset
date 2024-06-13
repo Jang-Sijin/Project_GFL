@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: UMP45_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: de1c78b78b6559a43830bb174bb3e792, type: 3}
   materials:
   - {fileID: 2100000, guid: 3cb637d9d0e33a74c89f67dc55bacedd, type: 2}

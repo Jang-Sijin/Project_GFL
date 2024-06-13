@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: PZB39_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 0877083835440804f8a844fb8b0bb339, type: 3}
   materials:
   - {fileID: 2100000, guid: 1600b641115761c4cb88f9abb707b3cd, type: 2}

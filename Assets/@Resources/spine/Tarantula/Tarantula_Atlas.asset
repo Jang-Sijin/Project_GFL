@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: Tarantula_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: a7878b8d18efbec4da0707dee1eb322a, type: 3}
   materials:
   - {fileID: 2100000, guid: 9f9fc7365ffe7604087a21b6e8abb9ed, type: 2}

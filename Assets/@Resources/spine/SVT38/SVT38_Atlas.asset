@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: SVT38_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: c921ed381bd3d9e419cee8a1c832c889, type: 3}
   materials:
   - {fileID: 2100000, guid: f916a94fbe1e61042a1f9e8c9c6acd83, type: 2}

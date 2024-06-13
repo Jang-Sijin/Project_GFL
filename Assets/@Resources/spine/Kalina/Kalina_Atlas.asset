@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: Kalina_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: fae55984723773847a38e2f8c6fd0613, type: 3}
   materials:
   - {fileID: 2100000, guid: 6de867455e7e0214db088e88008d473a, type: 2}

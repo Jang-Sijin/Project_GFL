@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: M4 SOPMOD II_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 3e93ed1f0198c4947abff28fb5aa5a1c, type: 3}
   materials:
   - {fileID: 2100000, guid: fc6dcae3435fc3b4f9e7e9874617b93f, type: 2}

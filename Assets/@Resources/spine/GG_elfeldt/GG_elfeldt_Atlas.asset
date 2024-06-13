@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: GG_elfeldt_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: d89548d12778ff642b9941bd372f2330, type: 3}
   materials:
   - {fileID: 2100000, guid: 748a7b70ece07b94e9a045ad1d509527, type: 2}

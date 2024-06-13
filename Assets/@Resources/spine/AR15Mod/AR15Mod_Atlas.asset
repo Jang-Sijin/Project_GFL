@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: AR15Mod_Atlas
   m_EditorClassIdentifier: 
-  textureLoadingMode: 0
-  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 7a13d063abc8069448ee6e6906da8a4b, type: 3}
   materials:
   - {fileID: 2100000, guid: 87fa3338cbd0e154cb18d55c7d6cea58, type: 2}
