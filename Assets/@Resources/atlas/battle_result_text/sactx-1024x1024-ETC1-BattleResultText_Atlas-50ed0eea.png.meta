@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -119,9 +119,190 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_0
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 5
+        width: 230
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70a2c817132ae045ae7f26a4f565a4f
+      internalID: 2022304061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dd86358ad92ba4d9d0ca483f26daf7
+      internalID: -1933335235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79269d51b4856f47920d1e4209bb850
+      internalID: -1797028110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9da6e51d6684d44a9611172ff27e8e
+      internalID: -2020576719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 230
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d217e25bc23b4f247bbb832093fa065a
+      internalID: 2092837031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 495
+        width: 230
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86395684f9cb6d4499bd0b438b43e8d
+      internalID: 1401629776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_6
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 500
+        width: 230
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398378bea27eb8b448128aa95095d037
+      internalID: -1704788836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_7
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 500
+        width: 230
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ff6889c6f5b5744aed64a946f0f11f
+      internalID: -271415780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +313,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_0: 2022304061
+      sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_1: -1933335235
+      sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_2: -1797028110
+      sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_3: -2020576719
+      sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_4: 2092837031
+      sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_5: 1401629776
+      sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_6: -1704788836
+      sactx-1024x1024-ETC1-BattleResultText_Atlas-50ed0eea_7: -271415780
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
