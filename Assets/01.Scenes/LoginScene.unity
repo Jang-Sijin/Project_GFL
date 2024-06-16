@@ -990,14 +990,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 65043547}
-    - target: {fileID: 7073691797159882167, guid: 747bb6d96bb0b0a419167a5ee57c3986, type: 3}
-      propertyPath: m_Name
-      value: Loading_Slider
-      objectReference: {fileID: 0}
-    - target: {fileID: 7476900590975233019, guid: 747bb6d96bb0b0a419167a5ee57c3986, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8844803922064425935, guid: 747bb6d96bb0b0a419167a5ee57c3986, type: 3}
       propertyPath: m_Pivot.x
       value: 0

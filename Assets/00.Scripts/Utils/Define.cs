@@ -21,6 +21,6 @@ public class Define
         Max
     }
 
-    public readonly string loadingbarValueTextMesh = "LoadingValue_Text(TMP)";
-    public readonly string loadingbarSlider = "Loading_Slider";
+    public static string loadingbarValueTextMesh = "LoadingValue_Text (TMP)";
+    public static string loadingbarSlider = "Loading_Slider";
 }

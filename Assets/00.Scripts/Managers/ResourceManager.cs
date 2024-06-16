@@ -6,23 +6,6 @@ public class ResourceManager
 {
     public void Init()
     {
-        // 0. 로딩 화면 캔버스 불러오기
-        string loadingCanvas = "Loading_Canvas";        
-        GameObject go = GameObject.Find(loadingCanvas);
-        if(go == null)
-        {
-            Debug.Log($"{loadingCanvas}가 Scene에 존재하지 않아, 새롭게 생성합니다.");
-
-            GameObject canvasPrefab = Resources.Load<GameObject>($"Prefabs/{loadingCanvas}");
-
-            if(canvasPrefab == null)
-            {
-                Debug.LogError($"{loadingCanvas} 프리팹을 찾을 수 없습니다. 경로를 확인하세요.");
-            }
-
-            // loadingCanvas 프리팹을 인스턴스화하여 씬에 추가
-            Object.Instantiate(canvasPrefab);
-        }
     }
 
     public T Load<T>(string path) where T : Object
@@ -49,5 +32,25 @@ public class ResourceManager
             return;
 
         Object.Destroy(go);
+    }
+
+    // 재귀적으로 하위 항목을 검색하여 오브젝트를 반환한다.
+    public GameObject FindChildByName(Transform parent, string name)
+    {
+        foreach (Transform child in parent)
+        {
+            if (child.name == name)
+            {
+                return child.gameObject;
+            }
+            
+            GameObject result = FindChildByName(child, name);
+            if (result != null)
+            {
+                return result;
+            }
+        }
+
+        return null;
     }
 }
