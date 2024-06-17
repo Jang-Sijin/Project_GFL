@@ -3,6 +3,7 @@ using System;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using Unity.VisualScripting;
 
 public abstract class UI_Base : MonoBehaviour
 {
@@ -68,7 +69,7 @@ public abstract class UI_Base : MonoBehaviour
     // 특정 오브젝트에 이벤트 바인딩처리.
     public static void BindEvent(GameObject go, Action action, Define.UIEvent type = Define.UIEvent.Click)
     {
-        UI_EventHandler evt = Utils.GetOrAddComponent<UI_EventHandler>(go);
+        UI_EventHandler evt = go.GetOrAddComponent<UI_EventHandler>();
 
         switch (type)
         {
