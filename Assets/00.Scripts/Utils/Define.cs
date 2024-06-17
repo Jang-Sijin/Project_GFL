@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class Define
 {
-    public enum SceneName
+    public enum SceneType
     {
-        None = 0,
-        LoginScene,
-        TitleScene,
+        Unknown = 0,
+        LoginScene,        
         LobbyScene,
-        BattleScene,        
+        SelectStageScene,
+        BattleScene,            
     }
 
-    public enum Sound
+    public enum SoundType
     {
         Bgm,
         SubBgm,
@@ -21,6 +21,9 @@ public class Define
         Max
     }
 
+    /// <summary>
+    /// Objects Name - Loading Canvas Prefabs
+    /// </summary>
     public static string loadingbarValueTextMesh = "LoadingValue_Text (TMP)";
     public static string loadingbarSlider = "Loading_Slider";
 }

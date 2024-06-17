@@ -12,14 +12,14 @@ public class Managers : MonoBehaviour
     public static Managers Instance => _instance;
     
     private ResourceManager _resource = new ResourceManager();
-    //private SceneManagerEx _scene = new SceneManagerEx();    
-    //private SoundManager _sound = new SoundManager();    
+    private SceneManagerEx _scene = new SceneManagerEx();    
+    private SoundManager _sound = new SoundManager();    
     private TweenManager _tween = new TweenManager();
     private LoadProgressHandler _loadProgress = new LoadProgressHandler();
 
     public static ResourceManager Resource => Instance?._resource;
-    //public static SceneManagerEx Scene => Instance?._scene;
-    //public static SoundManager Sound => Instance?._sound;    
+    public static SceneManagerEx Scene => Instance?._scene;
+    public static SoundManager Sound => Instance?._sound;    
     public static TweenManager Tween => Instance?._tween;
     public static LoadProgressHandler LoadProgress => Instance?._loadProgress;
 
@@ -66,10 +66,10 @@ public class Managers : MonoBehaviour
             _instance._loadProgress.UpdateProgress();
             //_instance._scene.Init();
             _instance._loadProgress.UpdateProgress();
-            //_instance._sound.Init();            
+            _instance._sound.Init();            
             _instance._loadProgress.UpdateProgress();
             _instance._tween.Init();
-            _instance._loadProgress.UpdateProgress();          
+            _instance._loadProgress.UpdateProgress();            
         }
     }
 

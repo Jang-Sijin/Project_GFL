@@ -79,7 +79,7 @@ public class LoadProgressHandler
         if (CurrentProgressCounter >= MaxProgressCounter)
         {
             // 로딩 캔버스 삭제
-            Managers.Instance.StartCoroutine(DestroyLoadingCanvasAfterDelay(_completedDelay));
+            Managers.Instance.StartCoroutine(DestroyLoadingCanvasAfterDelay(_completedDelay));            
         }        
     }
 
@@ -89,5 +89,7 @@ public class LoadProgressHandler
 
         // 로딩 캔버스 삭제 또는 완료 처리
         Object.Destroy(_loadingCanvas);
+
+        Managers.Sound.Play(Define.SoundType.Bgm, "Sound_Login_Loop");
     }
 }
