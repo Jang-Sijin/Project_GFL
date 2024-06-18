@@ -33,7 +33,17 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8cc907a03d9834b4a9cc48504420ca15
-    m_Address: Sound_UI_Back
+    m_Address: Sound_UI_BottonDown
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 373326af503ef794da740d70a9efcd7b
+    m_Address: UI_LoginScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3860dc8064753346bf59def7fb2e66e
+    m_Address: UI_LobbyScene
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -4,9 +4,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundManager
+public class SoundManager : MonoBehaviour
 {
-    private AudioSource[] _audioSources = new AudioSource[(int)Define.SoundType.Max];    
+    private AudioSource[] _audioSources = new AudioSource[(int)Define.SoundType.Max];
     // 어드레서블로 불러온 오디오 클립들을 딕셔너리에 관리
     private Dictionary<string, AudioClip> _audioClips = new Dictionary<string, AudioClip>();
 
@@ -60,7 +60,7 @@ public class SoundManager
         audioSource.Play();
     }
 
-    public void Play(Define.SoundType type, string key, float pitch = 1.0f)
+    public void Play(Define.SoundType type, string key, Action onComplete = null, float pitch = 1.0f)
     {
         AudioSource audioSource = _audioSources[(int)type];
 
@@ -71,7 +71,7 @@ public class SoundManager
                 // 실행 중인 bgm이 있는 경우 중지
                 if (audioSource.isPlaying)
                 {
-                    audioSource.Stop();                    
+                    audioSource.Stop();
                 }
                 audioSource.clip = audioclip;
 
@@ -104,11 +104,17 @@ public class SoundManager
                 audioSource.pitch = pitch;
                 // [추후 구현 필요] 게임 옵션 - Effect on/off 처리 필요
                 // if (Managers.Game.EffectSoundOn)
-                audioSource.volume = audioSoundValue; // 시작 볼륨 크기 설정
+                audioSource.volume = 1f; // 시작 볼륨 크기 설정
                 audioSource.PlayOneShot(audioClip);
+
+                if (onComplete != null)
+                {
+                    // 사운드 길이만큼 지연 후에 콜백 실행
+                    Invoke(nameof(onComplete), audioClip.length);                    
+                }
             });
         }
-    }
+    }    
 
     // 오디오 리소스 불러오기 - 어드레서블
     private void LoadAudioClip(string key, Action<AudioClip> callback)

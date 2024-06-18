@@ -31,7 +31,6 @@ public class BaseScene : MonoBehaviour
     }
 
     public virtual void Clear()
-    {
-
+    {        
     }
 }

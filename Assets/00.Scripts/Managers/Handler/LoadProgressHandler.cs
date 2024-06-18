@@ -2,26 +2,31 @@ using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class LoadProgressHandler
+// #추후 팝업 UI로 대체가 필요합니다. 완료 시 해당 주석 삭제 부탁드립니다.
+public class LoadProgressHandler : MonoBehaviour
 {
     // 매니저 총 개수로 로딩 진행 상황을 체크한다.
     public int CurrentProgressCounter { get; set; }
     public int MaxProgressCounter { get; private set; }
+    public bool IsLoaded { get { return _isLoaded; } }
 
     private Tweener _checkProgressTweener;    
     private Slider _loadingbarSlider;
     private TextMeshProUGUI _loadingbarValueTextMsth;
     private GameObject _loadingCanvas;
     private float _completedDelay = 3f;
+    private bool _isLoaded = false;
 
     public void InitLoadUI()
     {
+        _isLoaded = false;
         CurrentProgressCounter = 0;
-        MaxProgressCounter = 4;
+        MaxProgressCounter = 3;
 
         // 0. 로딩 화면 캔버스 불러오기
         string loadingCanvasText = "Loading_Canvas";
@@ -39,8 +44,12 @@ public class LoadProgressHandler
                 return;
             }
 
-            _loadingCanvas = Object.Instantiate(canvasPrefab);            
-        }        
+            _loadingCanvas = Object.Instantiate(canvasPrefab);
+            _loadingCanvas.name = loadingCanvasText;
+        }
+
+        // RootUI 세팅 - sorting Order
+        //_loadingCanvas.GetOrAddComponent<Canvas>().sortingOrder = 100;      
 
         // 컴포넌트 세팅
         GameObject FindTextSlider = Managers.Resource.FindChildByName(_loadingCanvas.transform, Define.loadingbarSlider);
@@ -77,7 +86,7 @@ public class LoadProgressHandler
 
         // 모든 리소스 불러오기 완료
         if (CurrentProgressCounter >= MaxProgressCounter)
-        {
+        {            
             // 로딩 캔버스 삭제
             Managers.Instance.StartCoroutine(DestroyLoadingCanvasAfterDelay(_completedDelay));            
         }        
@@ -87,9 +96,10 @@ public class LoadProgressHandler
     {
         yield return new WaitForSeconds(delay);
 
-        // 로딩 캔버스 삭제 또는 완료 처리
-        Object.Destroy(_loadingCanvas);
+        // 모든 리소스 불러오기 완료 처리
+        _isLoaded = true;
 
-        Managers.Sound.Play(Define.SoundType.Bgm, "Sound_Login_Loop");
+        // 로딩 캔버스 삭제 또는 완료 처리
+        Object.Destroy(_loadingCanvas);        
     }
 }

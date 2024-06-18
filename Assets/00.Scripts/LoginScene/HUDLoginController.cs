@@ -16,6 +16,6 @@ public class HUDLoginController : MonoBehaviour
     private void Init()
     {
         // 스타트 이미지 알파 값 핑퐁 애니메이션 적용
-        Managers.Tween.ImageAlphaPingPong(startImage, startAlpha: 1, endAlpha: 0.01f, duration: 1.5f);
+        //Managers.Tween.ImageAlphaPingPong(startImage, startAlpha: 1, endAlpha: 0.01f, duration: 1.5f);
     }
 }
