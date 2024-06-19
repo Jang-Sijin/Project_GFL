@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/01.Scenes/LoginScene.unity
+    path: Assets/01.Scenes/0.LoginScene.unity
     guid: 35a77299ab5ec634cb30e3a599a13e80
   - enabled: 1
-    path: Assets/01.Scenes/LobbyScene.unity
+    path: Assets/01.Scenes/1.LobbyScene.unity
     guid: 31a16cd4f39808942949b7cea63e6b20
   - enabled: 1
-    path: Assets/01.Scenes/BattleScene.unity
+    path: Assets/01.Scenes/23123.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 39aaa6072a42e184aa55b4079f46a445, type: 2}

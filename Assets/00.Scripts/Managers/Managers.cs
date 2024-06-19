@@ -92,10 +92,21 @@ public class Managers : MonoBehaviour
     {
         GUIStyle style = new GUIStyle();
 
-        Rect rect = new Rect(0, 0, Screen.width, Screen.height);
+        // 텍스트 배경을 위한 Rect
+        Rect backgroundRect = new Rect(0, Screen.height - 20, 90, Screen.height - 0.1f);
+
+        Rect rect = new Rect(5, Screen.height - 17.5f, 90, Screen.height);
         style.alignment = TextAnchor.UpperLeft;
-        style.fontSize = 25;
+        style.fontSize = 10;
         style.normal.textColor = UnityEngine.Color.white;
+
+        // 회색 배경 상자 그리기
+        UnityEngine.Color originalColor = GUI.color;
+        GUI.color = new UnityEngine.Color(0.2f, 0.2f, 0.2f, 0.8f); // 반투명 회색
+        GUI.Box(backgroundRect, GUIContent.none); // 텍스트 없는 빈 박스
+
+        // 원래 색상으로 복원
+        GUI.color = originalColor;
 
         float ms = _fpsDeltaTime * 1000f;
         float fps = 1.0f / _fpsDeltaTime;
