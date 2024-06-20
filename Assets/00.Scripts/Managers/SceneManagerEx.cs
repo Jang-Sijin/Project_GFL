@@ -28,7 +28,9 @@ public class SceneManagerEx
     //    // StartCoroutine(Co_LoadSceneAsync(type));
     //}
 
+    // 
     // 변경할 Scene Type을 Parameter로 전달
+
     public IEnumerator Co_ChangeSceneAsync(Define.SceneType type)
     {
         Debug.Log(CurrentScene);

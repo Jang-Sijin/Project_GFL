@@ -32,12 +32,9 @@ public class UI_LobbyScene : UI_Scene
     }
 
     #region EventHandler
-    private void OnClickBG()
+    private void OnClickEventSomethings()
     {
-        if (_isLoaded)
-            //Managers.Scene.Co_ChangeSceneAsync(Define.SceneType.LobbyScene);
-
-        Managers.Sound.Play(Define.SoundType.Effect, "Sound_UI_Click");
+        
     }
     #endregion
 }

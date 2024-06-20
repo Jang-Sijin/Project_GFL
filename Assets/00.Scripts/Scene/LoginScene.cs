@@ -12,7 +12,7 @@ public class LoginScene : BaseScene
             return false;
 
         // 현재(로그인) Scene으로 설정
-        SceneType = Define.SceneType.LoginScene;
+        SceneType = Define.SceneType._0LoginScene;
 
         Managers.UI.ShowSceneRootUI<UI_LoginScene>(callback: (loginSceneUI) =>
         {

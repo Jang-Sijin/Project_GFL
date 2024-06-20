@@ -65,7 +65,7 @@ public class UI_LoginScene : UI_Scene
 
         if (_isLoaded) // # 씬 변경 BG 애니메이션 처리 필요 -> 완료 후 주석 제거 필요
         {            
-            StartCoroutine(Managers.Scene.Co_ChangeSceneAsync(Define.SceneType.LobbyScene));
+            StartCoroutine(Managers.Scene.Co_ChangeSceneAsync(Define.SceneType._1LobbyScene));
         }
     }
     #endregion

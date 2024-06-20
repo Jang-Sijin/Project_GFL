@@ -9,7 +9,7 @@ public class LobbyScene : BaseScene
             return false;
 
         // 현재(로비) Scene으로 설정
-        SceneType = Define.SceneType.LobbyScene;
+        SceneType = Define.SceneType._1LobbyScene;
 
         Managers.UI.ShowSceneRootUI<UI_LobbyScene>(callback: (lobbySceneUI) =>
         {

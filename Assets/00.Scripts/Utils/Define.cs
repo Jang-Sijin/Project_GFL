@@ -14,10 +14,15 @@ public class Define
     public enum SceneType
     {
         Unknown = 0,
-        LoginScene,        
-        LobbyScene,
-        SelectStageScene,
-        BattleScene,            
+        _0LoginScene,        
+        _1LobbyScene,
+        _2DollRestorationScene,
+        _3LodgingScene,
+        _4ResearchScene,
+        _5DollCraftShopScene,
+        _6SelectBattleStageScene,
+        _7DollFormationScene,
+        _8BattleInGameScene
     }
 
     public enum SoundType
