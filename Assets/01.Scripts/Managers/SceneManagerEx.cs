@@ -1,4 +1,7 @@
+using System;
 using System.Collections;
+using System.Threading.Tasks;
+using UnityEditor.Timeline.Actions;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -31,25 +34,44 @@ public class SceneManagerEx
     // 
     // 변경할 Scene Type을 Parameter로 전달
 
-    public IEnumerator Co_ChangeSceneAsync(Define.SceneType type)
+    public void Co_ChangeSceneAsync(Define.SceneType type)
     {
+        Managers.LoadProgress.ChangeSceneCanvas.SetActive(true);
+        
         Debug.Log(CurrentScene);
+        
         CurrentScene.Clear();        
-
         _currentSceneType = type;
 
         // 씬을 비동기적으로 로드
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(GetSceneName(type));
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(GetSceneName(type));        
 
         // 씬이 로드될 때까지 대기
-        while (!asyncLoad.isDone)
-        {
-            // 로드 진행률을 출력 (0.0f to 1.0f)
-            Debug.Log("Loading progress: " + (asyncLoad.progress * 100) + "%");
-            yield return null;
-        }
+        //while (true)
+        //{
+        //    // 로드 진행률을 출력 (0.0f to 1.0f)
+        //    Debug.Log("Loading progress: " + (asyncLoad.progress * 100) + "%");
+        //    yield return null;
+        //
+        //    if (asyncLoad.isDone)
+        //        break;
+        //}
+        Debug.Log("Loading progress: " + (asyncLoad.progress * 100) + "%");
 
+        asyncLoad.completed += async (AsyncOperation op) =>
+        {
+            // 3초 동안 대기
+            await Task.Delay(TimeSpan.FromSeconds(3));
+
+            // 3초 후에 실행할 코드 작성
+            WaitChangeScene();
+        };
         Debug.Log("Scene Loaded: " + GetSceneName(type));
+    }
+
+    private void WaitChangeScene()
+    {
+        Managers.LoadProgress.ChangeSceneCanvas.SetActive(false);
     }
 
     // SceneType을 string으로 반환

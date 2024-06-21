@@ -33,7 +33,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8cc907a03d9834b4a9cc48504420ca15
-    m_Address: Sound_UI_BottonDown
+    m_Address: Sound_UI_ButtonDown
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -49,6 +49,26 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f9d3fe7c48d787a4ca85ab69f12427d9
     m_Address: UI_DollRestorationScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: effff4873df4e26428300304bde5e9d7
+    m_Address: UI_SelectBattleStageScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b90295f625415b344b162ccea0103496
+    m_Address: Sound_Lodging_Loop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cededa71d694de46886b60809f90fb6
+    m_Address: UI_LodgingScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c1daf4eb6753fd4d990e76b0c5fd191
+    m_Address: UI_Canvas_MoveScene
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -25,6 +25,12 @@ public class Define
         _8BattleInGameScene
     }
 
+    public enum SceneChangeType
+    {
+        In,
+        Out,
+    }
+
     public enum SoundType
     {
         Bgm,
@@ -38,4 +44,6 @@ public class Define
     /// </summary>
     public static string loadingbarValueTextMesh = "LoadingValue_Text (TMP)";
     public static string loadingbarSlider = "Loading_Slider";
+
+    public static string ChangeSceneLoadingCanvas = "UI_Canvas_MoveScene";
 }

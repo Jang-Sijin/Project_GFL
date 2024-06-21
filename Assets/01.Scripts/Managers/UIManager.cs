@@ -55,5 +55,5 @@ public class UIManager
             SceneUI = sceneUI;
             callback?.Invoke(sceneUI);
         });
-    }
+    }    
 }

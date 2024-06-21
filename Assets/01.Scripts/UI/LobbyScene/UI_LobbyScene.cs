@@ -32,7 +32,8 @@ public class UI_LobbyScene : UI_Scene
 
         BindButton(typeof(Buttons));
 
-        GetButton((int)Buttons.Move_DollRestoration_Button).gameObject.BindEvent(OnClickMoveDollRestorationButton);
+        GetButton((int)Buttons.Move_DollRestoration_Button).gameObject.BindEvent(OnClickButtonMoveSceneDollRestoration);
+        GetButton((int)Buttons.Move_Lodging_Button).gameObject.BindEvent(OnClickButtonMoveSceneLodging);
 
         // GetObject((int)GameObjects.BG).BindEvent(OnClickBG);
 
@@ -46,9 +47,16 @@ public class UI_LobbyScene : UI_Scene
     }
 
     #region EventHandler
-    private void OnClickMoveDollRestorationButton()
+    private void OnClickButtonMoveSceneDollRestoration()
     {
-        StartCoroutine(Managers.Scene.Co_ChangeSceneAsync(Define.SceneType._2DollRestorationScene));
+        Managers.Sound.Play(Define.SoundType.Effect, "Sound_UI_Click");
+        Managers.Scene.Co_ChangeSceneAsync(Define.SceneType._2DollRestorationScene);
+    }
+
+    private void OnClickButtonMoveSceneLodging()
+    {
+        Managers.Sound.Play(Define.SoundType.Effect, "Sound_UI_Click");        
+        Managers.Scene.Co_ChangeSceneAsync(Define.SceneType._3LodgingScene);
     }
     #endregion
 }

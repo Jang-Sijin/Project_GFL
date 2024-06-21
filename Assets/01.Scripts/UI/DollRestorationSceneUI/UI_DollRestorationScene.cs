@@ -41,9 +41,9 @@ public class UI_DollRestorationScene : UI_Scene
 
     #region EventHandler
     private void OnClickButtonPrevScene()
-    {
-        Managers.Sound.Play(Define.SoundType.Effect, "Sound_UI_Click");
-        StartCoroutine(Managers.Scene.Co_ChangeSceneAsync(Define.SceneType._1LobbyScene));
+    {        
+        Managers.Sound.Play(Define.SoundType.Effect, "Sound_UI_ButtonDown");        
+        Managers.Scene.Co_ChangeSceneAsync(Define.SceneType._1LobbyScene);
     }
     #endregion
 }

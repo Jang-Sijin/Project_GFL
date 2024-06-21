@@ -20,9 +20,9 @@ public abstract class UI_Base : MonoBehaviour
         if (_init)
             return false;
 
-        Managers.Init();
-
         _init = true;
+        //Managers.Init();        
+
         return true;
     }
 

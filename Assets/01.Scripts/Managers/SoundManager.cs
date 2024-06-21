@@ -73,6 +73,7 @@ public class SoundManager : MonoBehaviour
                 if (audioSource.isPlaying)
                 {
                     audioSource.Stop();
+                    audioSource.DOKill();
                 }
                 audioSource.clip = audioclip;
 
@@ -88,7 +89,10 @@ public class SoundManager : MonoBehaviour
             LoadAudioClip(key, (audioClip) =>
             {
                 if (audioSource.isPlaying)
+                {
                     audioSource.Stop();
+                    audioSource.DOKill();
+                }
 
                 audioSource.clip = audioClip;
                 // [추후 구현 필요] 게임 옵션 - Effect on/off 처리 필요
@@ -111,11 +115,11 @@ public class SoundManager : MonoBehaviour
                 if (onComplete != null)
                 {
                     // 사운드 길이만큼 지연 후에 콜백 실행
-                    Invoke(nameof(onComplete), audioClip.length);                    
+                    Invoke(nameof(onComplete), audioClip.length);
                 }
             });
         }
-    }    
+    }
 
     // 오디오 리소스 불러오기 - 어드레서블
     private void LoadAudioClip(string key, Action<AudioClip> callback)
@@ -145,20 +149,17 @@ public class SoundManager : MonoBehaviour
     {
         AudioSource audioSource = _audioSources[(int)type];
         bool isPlaying = false;
-
-        // 노래가 존재하지 않거나
-        if(audioSource.clip)
-
+        
         switch (type)
         {
             case Define.SoundType.Bgm:
             case Define.SoundType.SubBgm:
-            case Define.SoundType.Effect:                
+            case Define.SoundType.Effect:
                 if (audioSource.clip.name == key && audioSource.isPlaying)
                     isPlaying = true;
                 else
                     isPlaying = false;
-                break;                            
+                break;
         }
 
         return isPlaying;
