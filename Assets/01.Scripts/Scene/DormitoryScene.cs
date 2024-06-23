@@ -11,7 +11,7 @@ public class DormitoryScene : BaseScene
         if (base.Init() == false)
             return false;
 
-        // 현재 (수복)Scene으로 설정
+        // 숙소 Scene으로 설정
         SceneType = Define.SceneType._3DormitoryScene;
 
         Managers.UI.ShowSceneRootUI<UI_DormitoryScene>(callback: (dormitorySceneUI) =>

@@ -12,7 +12,7 @@ public class ResearchScene : BaseScene
         if (base.Init() == false)
             return false;
 
-        // Research Scene으로 설정
+        // 연구 Scene으로 설정
         SceneType = Define.SceneType._4ResearchScene;
 
         Managers.UI.ShowSceneRootUI<UI_ResearchScene>(callback: (researchSceneUI) =>

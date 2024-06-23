@@ -37,7 +37,7 @@ public class UI_DormitoryScene : UI_Scene
         return true;
     }
 
-    #region EventHandler
+    #region EventCallback
     private void OnClickButtonPrevScene()
     {
         Managers.Sound.Play(Define.SoundType.Effect, "Sound_UI_ButtonDown");        
