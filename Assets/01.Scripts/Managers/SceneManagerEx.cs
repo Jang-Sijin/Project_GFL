@@ -34,7 +34,7 @@ public class SceneManagerEx
     // 
     // 변경할 Scene Type을 Parameter로 전달
 
-    public void Co_ChangeSceneAsync(Define.SceneType type)
+    public void ChangeSceneAsync(Define.SceneType type)
     {
         Managers.LoadProgress.ChangeSceneCanvas.SetActive(true);
         
@@ -61,7 +61,7 @@ public class SceneManagerEx
         asyncLoad.completed += async (AsyncOperation op) =>
         {
             // 3초 동안 대기
-            await Task.Delay(TimeSpan.FromSeconds(3));
+            await Task.Delay(TimeSpan.FromSeconds(2f));
 
             // 3초 후에 실행할 코드 작성
             WaitChangeScene();

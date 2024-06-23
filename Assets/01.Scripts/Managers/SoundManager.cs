@@ -149,6 +149,9 @@ public class SoundManager : MonoBehaviour
     {
         AudioSource audioSource = _audioSources[(int)type];
         bool isPlaying = false;
+
+        if (audioSource.clip == null)
+            return isPlaying;
         
         switch (type)
         {

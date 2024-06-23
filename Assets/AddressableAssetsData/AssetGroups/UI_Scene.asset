@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UI_Scene
+  m_EditorClassIdentifier: 
+  m_GroupName: UI_Scene
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3f3549b83d8eaf64ea4351f2ede58df0
+  m_SerializeEntries:
+  - m_GUID: 3cededa71d694de46886b60809f90fb6
+    m_Address: UI_DormitoryScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3c426364a6a56f4cbb122d8621b7e4e
+    m_Address: UI_ResearchScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7a25c8c4f35e3648a144bd44cdfef08
+    m_Address: UI_FactoryScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd9cb6a06f569fc4184aa5099d61f577
+    m_Address: UI_DollFormationScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 373326af503ef794da740d70a9efcd7b
+    m_Address: UI_LoginScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3860dc8064753346bf59def7fb2e66e
+    m_Address: UI_LobbyScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9d3fe7c48d787a4ca85ab69f12427d9
+    m_Address: UI_DollRestoreScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: effff4873df4e26428300304bde5e9d7
+    m_Address: UI_SelectBattleStageScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0cb66aa3a30470a40904a68d614f999b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f886cda8c61502d40b34688ac9ae3a33, type: 2}
+    - {fileID: 11400000, guid: 7cd551577970afc43aff02e8e93980df, type: 2}

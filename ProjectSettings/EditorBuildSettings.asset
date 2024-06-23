@@ -12,16 +12,16 @@ EditorBuildSettings:
     path: Assets/00.Scenes/_1LobbyScene.unity
     guid: 31a16cd4f39808942949b7cea63e6b20
   - enabled: 1
-    path: Assets/00.Scenes/_2DollRestorationScene.unity
+    path: Assets/00.Scenes/_2DollRestoreScene.unity
     guid: a7b27ab092603fa4aa7bd070d4d230d7
   - enabled: 1
-    path: Assets/00.Scenes/_3LodgingScene.unity
+    path: Assets/00.Scenes/_3DormitoryScene.unity
     guid: cdc3fdcd85152814790874252ab830b7
   - enabled: 1
     path: Assets/00.Scenes/_4ResearchScene.unity
     guid: 7d6a1c0f2ffa943428c1f405108555ed
   - enabled: 1
-    path: Assets/00.Scenes/_5DollCraftShopScene.unity
+    path: Assets/00.Scenes/_5DollFactoryScene.unity
     guid: a73b0ad2c98a01c4fb47cc6f69e92b0f
   - enabled: 1
     path: Assets/00.Scenes/_6SelectBattleStageScene.unity

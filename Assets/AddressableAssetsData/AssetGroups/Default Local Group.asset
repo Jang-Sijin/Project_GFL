@@ -16,62 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: e57a07356c182f54987836dff19dc1bb
-  m_SerializeEntries:
-  - m_GUID: f7851a1eb01e45548b1215b857109f1b
-    m_Address: Sound_Lobby_Loop
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 20c0451067646e740be1d25c5456fab6
-    m_Address: Sound_Login_Loop
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3d3e1a780d8fb584abbbc2f105aedf45
-    m_Address: Sound_UI_Click
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8cc907a03d9834b4a9cc48504420ca15
-    m_Address: Sound_UI_ButtonDown
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 373326af503ef794da740d70a9efcd7b
-    m_Address: UI_LoginScene
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e3860dc8064753346bf59def7fb2e66e
-    m_Address: UI_LobbyScene
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f9d3fe7c48d787a4ca85ab69f12427d9
-    m_Address: UI_DollRestorationScene
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: effff4873df4e26428300304bde5e9d7
-    m_Address: UI_SelectBattleStageScene
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b90295f625415b344b162ccea0103496
-    m_Address: Sound_Lodging_Loop
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3cededa71d694de46886b60809f90fb6
-    m_Address: UI_LodgingScene
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1c1daf4eb6753fd4d990e76b0c5fd191
-    m_Address: UI_Canvas_MoveScene
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 0cb66aa3a30470a40904a68d614f999b, type: 2}
   m_SchemaSet:

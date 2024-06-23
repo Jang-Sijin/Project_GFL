@@ -2157,7 +2157,7 @@ GameObject:
   - component: {fileID: 5246146234552261925}
   - component: {fileID: 7433157347973826719}
   - component: {fileID: 943380663624662917}
-  - component: {fileID: 5163372024814520164}
+  - component: {fileID: 8908238938441068500}
   m_Layer: 5
   m_Name: UI_SelectBattleStageScene
   m_TagString: Untagged
@@ -2250,7 +2250,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &5163372024814520164
+--- !u!114 &8908238938441068500
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2259,7 +2259,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6911820993723885399}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2446981df858e845be91471b2b41357, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e5c5d0d8d0c03646a8ca187ea96455d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7573141001980210272
