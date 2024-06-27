@@ -6,10 +6,12 @@ using UnityEngine;
 
 public class UIManager
 {
+    private int _order = 20;
+
     public UI_Scene SceneUI { get; set; }
 
     private Stack<UI_Popup> _popupStack = new Stack<UI_Popup>();
-    private int _order = 20;
+    
 
     // 최상위 UI GameObject
     public GameObject RootUI
@@ -26,7 +28,7 @@ public class UIManager
         }
     }
 
-    // 
+    // Main UI 오브젝트에 캔버스 추가 및 초기 설정 값 세팅
     public void SetCanvas(GameObject go, bool sort = true)
     {
         Canvas canvas = go.GetOrAddComponent<Canvas>();
@@ -44,6 +46,7 @@ public class UIManager
         }
     }
 
+    // 특정 타입의 씬 Root(메인) UI를 생성하고 초기화하는 데 사용
     public void ShowSceneRootUI<T>(string key = null, Action<T> callback = null) where T : UI_Scene
     {
         if (string.IsNullOrEmpty(key))
@@ -55,5 +58,29 @@ public class UIManager
             SceneUI = sceneUI;
             callback?.Invoke(sceneUI);
         });
-    }    
+    }
+
+    // 
+    public void ShowPopupUI<T>(string key = null, Transform parent = null, Action<T> callback = null) where T : UI_Popup
+    {
+        if(string.IsNullOrEmpty(key))
+        {
+            key = typeof(T).Name;
+        }
+
+        Managers.Resource.Instantiate(key, null, (go) =>
+        {
+            T popup = go.GetOrAddComponent<T>();
+            _popupStack.Push(popup);
+
+            if (parent != null)
+                go.transform.SetParent(parent);
+            else
+                go.transform.SetParent(RootUI.transform);
+
+            callback?.Invoke(popup);
+        });
+    }
+
+    public T FindPopup<T>() where
 }
