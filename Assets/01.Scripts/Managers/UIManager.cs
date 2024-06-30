@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -82,5 +83,55 @@ public class UIManager
         });
     }
 
-    public T FindPopup<T>() where
+    // 현재 출력(스택에 존재하는)된 팝업 중 제네릭(T) UI_Popup 상속받은 스크립트를 반환한다.
+    public T FindPopup<T>() where T : UI_Popup
+    {
+        return _popupStack.Where(x=> x.GetType() == typeof(T)).FirstOrDefault() as T;
+    }
+
+    // 가장 마지막에 호출한 UI 제네릭(T) 타입을 삭제하지 않고 반환)
+    public T PeekPopupUI<T>() where T : UI_Popup
+    {
+        return _popupStack.Peek() as T;
+    }
+
+    public void ClosePopupUI(UI_Popup popup)
+    {
+        if (_popupStack.Count == 0)
+            return;
+
+        if(_popupStack.Peek() != popup)
+        {
+            Debug.Log("Close Popup Failed");
+            return;
+        }
+
+        ClosePopupUI();
+    }
+
+    // 현재 최상위 팝업 UI를 제거한다.
+    public void ClosePopupUI()
+    {
+        if (_popupStack.Count == 0)
+            return;
+
+        UI_Popup popup = _popupStack.Pop();
+        Managers.Resource.Destroy(popup.gameObject);
+        popup = null;
+        _order--;
+    }
+
+    // 모든 팝업 UI를 제거한다.
+    public void CloseAllPopupUI()
+    {
+        while (_popupStack.Count > 0)
+            ClosePopupUI();
+    }
+
+    // 모든 팝업 UI 해제
+    public void Clear()
+    {
+        CloseAllPopupUI();
+        SceneUI = null;
+    }
 }
