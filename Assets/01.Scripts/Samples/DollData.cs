@@ -12,10 +12,10 @@ using UnityEngine;
 /// 인형의 정보 기본 클래스
 /// </summary>
 
-public class DollBattleData : MonoBehaviour
+public class DollData : MonoBehaviour
 {    
     // 인형은 기본, 이동, 공격, 승리   
-    public enum DollBattleState
+    public enum DollState
     {
         Idle,
         Move,
@@ -23,34 +23,34 @@ public class DollBattleData : MonoBehaviour
         Die,
         Victory
     }
-    private DollBattleState _state;
-    public DollBattleState State { get { return _state; } private set { } }
+    [ReadOnly] private DollState _state;
+    public DollState State { get { return _state; } private set { } }
 
     // 인형 Spine 스켈레톤 애니메이션    
-    [ReadOnly] private SkeletonAnimation _skeletonAnime;
+    public SkeletonAnimation _skeletonAnime;
 
     // 인형 프로필 스프라이트
     [ReadOnly] private Sprite _profileSprite;
 
-    public void SetStateDollData(DollBattleState state)
+    public void SetStateDollData(DollState state)
     {
         _state = state;
 
         switch(state)
         {
-            case DollBattleState.Idle:
+            case DollState.Idle:
                 _skeletonAnime.AnimationName = "wait";
                 break;
-            case DollBattleState.Move:
+            case DollState.Move:
                 _skeletonAnime.AnimationName = "move";
                 break;
-            case DollBattleState.Attack:
+            case DollState.Attack:
                 _skeletonAnime.AnimationName = "attack";
                 break;
-            case DollBattleState.Die:
+            case DollState.Die:
                 _skeletonAnime.AnimationName = "die";
                 break;
-            case DollBattleState.Victory:
+            case DollState.Victory:
                 _skeletonAnime.AnimationName = "victory";
                 break;
         }

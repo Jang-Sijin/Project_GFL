@@ -112,7 +112,6 @@ public class Define
         /// 버프를 줄 인형들에게 주는 버프들의 수치값 배열
         /// </summary>
         public GridEffect[] gridEffects;
-
     }
 
     /// <summary>

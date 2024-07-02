@@ -16,7 +16,8 @@ public class Managers : MonoBehaviour
     private SoundManager _sound = new SoundManager();    
     private UIManager _ui = new UIManager();
     private ObjectManager _object = new ObjectManager();
-    private TweenManager _tween = new TweenManager();    
+    private DollManager _dolls = new DollManager();
+    private TweenManager _tween = new TweenManager();        
     private LoadProgressHandler _loadProgress = new LoadProgressHandler();
 
     public static ResourceManager Resource => Instance?._resource;
@@ -24,6 +25,7 @@ public class Managers : MonoBehaviour
     public static SoundManager Sound => Instance?._sound;
     public static UIManager UI => Instance?._ui;
     public static ObjectManager Object => Instance?._object;
+    public static DollManager Dolls => Instance?._dolls;
     public static TweenManager Tween => Instance?._tween;
     public static LoadProgressHandler LoadProgress => Instance?._loadProgress;
 
@@ -66,11 +68,13 @@ public class Managers : MonoBehaviour
             _instance._loadProgress.InitLoadUI();            
 
             // 각 매니저 초기화            
-            _instance._resource.Init();
+            _instance._resource.Init(); // 리소스 초기화
             _instance._loadProgress.UpdateProgress();            
-            _instance._sound.Init();            
-            _instance._loadProgress.UpdateProgress();            
-            _instance._tween.Init();
+            _instance._sound.Init(); // 사운드 초기화
+            _instance._loadProgress.UpdateProgress();
+            _instance._dolls.Init(); // 인형 초기화
+            _instance._loadProgress.UpdateProgress();
+            _instance._tween.Init(); // 트윈 초기화
             _instance._loadProgress.UpdateProgress();            
         }
     }
@@ -88,7 +92,7 @@ public class Managers : MonoBehaviour
         _fpsDeltaTime += (Time.unscaledDeltaTime - _fpsDeltaTime) * 0.1f;
     }
 
-    private void DrawFps()
+    private void DrawFps() // 프레임 확인용
     {
         GUIStyle style = new GUIStyle();
 
