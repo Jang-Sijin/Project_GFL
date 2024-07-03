@@ -126,3 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75cde0bc1ee425440915433631b5d555, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 0
+  _state: 0
+  _skeletonAnime: {fileID: 0}
+  _profileSprite: {fileID: 0}

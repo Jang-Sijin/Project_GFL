@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: e57a07356c182f54987836dff19dc1bb
   m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: 8fd8aff81c1f96624802458dbe984b2e
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -49,6 +49,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 64483077ada44434bb90149dc3b2e625, type: 2}
   - {fileID: 11400000, guid: 50eb4cd40df589f42a8df82939e77ffb, type: 2}
   - {fileID: 11400000, guid: 1fb2cc364966f944c9fc1c5835451953, type: 2}
+  - {fileID: 11400000, guid: b0b140449067e4045b4826fc042e4bd0, type: 2}
+  - {fileID: 11400000, guid: 3498369217f851e45a82258df7e0da89, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -91,6 +93,7 @@ MonoBehaviour:
     m_LabelNames:
     - default
     - BGM
+    - Spine_SkeletonDataAsset
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 43da774ed7674d840b0d715586e6ec16, type: 2}
